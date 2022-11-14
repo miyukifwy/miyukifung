@@ -1,0 +1,54 @@
+baseURL: ""
+languageCode: en-uk
+title: Home
+theme: hugo-PaperMod
+
+params:
+  # homeInfoParams:
+  defaultTheme: dark
+  profileMode:
+      enabled: true
+      title: "Hello, I'm Miyuki Fung! :)" # optional default will be site title
+      subtitle: "Final year Computer Science Undergaduate Student @ Lancaster University!"
+
+      imageUrl: "img/fwy.jpeg" # optional
+      imageTitle: "This is an image of myself" # optional
+      imageWidth: 120 # custom size
+      imageHeight: 120 # custom size
+      # enabled: false
+
+      buttons:
+        - name: Archives
+          url: "/archives"
+        - name: Github
+          url: "https://github.com/fungwy"
+
+      socialIcons: # optional
+        - name: "LinkedIn"
+          url: "https://www.linkedin.com/in/miyukifung/"
+
+
+  cover:
+    linkFullImages: true
+    responsiveImages: false
+    ShowBreadCrumbs: true 
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+
+  
+menu:
+  main:
+  - identifier: categories
+    name: Categories
+    url: /categories/
+    weight: 10
+
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 20
+
+  - identifier: archives
+    name: Archives
+    url: /archive/
+    weight: 30 
