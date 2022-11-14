@@ -4,6 +4,12 @@ title: Home
 theme: hugo-PaperMod
 
 params:
+  cover:
+    linkFullImages: true
+    responsiveImages: false
+    ShowBreadCrumbs: true 
+    ShowReadingTime: true
+    ShowPostNavLinks: true
   # homeInfoParams:
   defaultTheme: dark
   profileMode:
@@ -26,16 +32,7 @@ params:
       socialIcons: # optional
         - name: "LinkedIn"
           url: "https://www.linkedin.com/in/miyukifung/"
-
-
-  cover:
-    linkFullImages: true
-    responsiveImages: false
-    ShowBreadCrumbs: true 
-    ShowReadingTime: true
-    ShowPostNavLinks: true
-
-  
+ 
 menu:
   main:
   - identifier: categories
