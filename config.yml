@@ -47,5 +47,5 @@ menu:
 
   - identifier: archives
     name: Archives
-    url: /archives
+    url: /archives/
     weight: 30 
